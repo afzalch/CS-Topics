@@ -10,14 +10,14 @@ The problem with symmetric encryption is how are the keys shared
 
 
 Asymmetric Encryption - one key is used to encrypt and another key is used to decrypt
-Server distributes public key publically while private key is kept hidden and used to decrypt any messages sent that have been encrypted using the public keys
+Server distributes public key publicly while private key is kept hidden and used to decrypt any messages sent that have been encrypted using the public keys
  
-Cons is that it is slower than symmetric encryption because keys can be quite a fair bit larger than the keys used in symmetric encyrption
+Cons is that it is slower than symmetric encryption because keys can be quite a fair bit larger than the keys used in symmetric encryption
 
 HTTPS:
 Need to trust that public key cryptography and signature works
-1) Any message encypted with public key can only be decrypted with their private key
-2) Anyone with access to __ pubnlic key can verify that a message (signature) could only have been created by someone with access to ___'s private key 
+1) Any message encrypted with public key can only be decrypted with their private key
+2) Anyone with access to __ public key can verify that a message (signature) could only have been created by someone with access to ___'s private key 
 
 
 ## Certificates
