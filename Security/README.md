@@ -1,10 +1,17 @@
 ## Table of Contents
-- [Definitions](#definitions)
+- [Cryptographic Tools](#cryptographic-tools)
 - [Certificates](#certificates)
 
 
-## Definitions
-Symmetric Encryption - one key is used to encrypt and decrypt
+## Cryptographic Tools
+
+
+
+Symmetric Encryption - same key is used to encrypt and decrypt
+- Universal technique for providing confidentiality for transmitted or stored data
+- Two requirements for secure use
+  - Strong encryption algorithm
+  - Sender and reciever must have recieved copies of key in a secure fashion and must keep the key secure
 
 The problem with symmetric encryption is how are the keys shared
 
@@ -34,4 +41,4 @@ Need to trust that public key cryptography and signature works
 
 
 **Certificate Signing Request (CSR)**
-Canb e done through the use of programs such as openSSL that create a private key and a CSR from scratch 
+Can be done through the use of programs such as openSSL that create a private key and a CSR from scratch 
