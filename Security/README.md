@@ -7,11 +7,11 @@
 
 
 
-Symmetric Encryption - same key is used to encrypt and decrypt
+**Symmetric Encryption** - same key is used to encrypt and decrypt
 - Universal technique for providing confidentiality for transmitted or stored data
 - Two requirements for secure use
   - Strong encryption algorithm
-  - Sender and reciever must have recieved copies of key in a secure fashion and must keep the key secure
+  - Sender and receiver must have received copies of key in a secure fashion and must keep the key secure
 
 The problem with symmetric encryption is how are the keys shared
 
@@ -28,11 +28,10 @@ Need to trust that public key cryptography and signature works
 
 
 ## Certificates
-
-- Electronic credentials used to assert the identities of individiuals, computers and other entities on a network
+- Electronic credentials used to assert the identities of individuals, computers and other entities on a network
 - Similar to ID cards (driver licenses, passports, etc)
 - Contain public key and identity of the owner
-
+ 
 - One of the more common uses of certificates is in SSL 
 
 ### Certificate Issuer
